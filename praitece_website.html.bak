@@ -1,0 +1,495 @@
+<html>
+<head>
+<title>Ecomarce Website Design</title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-
+scale=1.0">
+<link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-
+awesome.min.css">
+</head>
+<body>
+
+<section class="header">
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="logo.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+     <i class="fa fa-bars"></i> 
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto text-right">
+       
+        <li class="nav-item">
+          <a class="nav-link" href="praitece_website.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="product.html">PRODUCTS</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="Product_Details.html">ABOUT</a>
+        </li>
+		 <li class="nav-item">
+          <a class="nav-link" href="cart_page.html">CONTACT</a>
+        </li>
+		 <li class="nav-item">
+          <a class="nav-link" href="#">ACCOUNT</a>
+        </li>
+		 <li class="nav-item">
+          <a class="nav-link" href="cart_page.html"><img src="cart.png"></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<div class="text-area">
+<h1>Give Your Workout<br>A New Style!</h1>
+<p>Success isn't always about greatness. It's about
+consistency. <br>Cnsistent hard work gains success. Greatness
+will come.</p>
+<button class="primary-btn"><a href="#">See More</a></button>
+</div>
+</div>
+
+<div class="col-md-6">
+<img src="image1.png" class="header-img">
+</div>
+</div>
+</div>
+</section>
+
+
+
+<section class="image">
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+<div class="category-image">
+<img src="category-1.jpg" class="category-img">
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="category-image">
+<img src="category-2.jpg" class="category-img">
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="category-image">
+<img src="category-3.jpg" class="category-img">
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+<section class="service">
+<div class="container">
+<div class="title-style text-center">
+<h1>FASHION TRENDS</h1>
+</div>
+
+<div class="row">
+<div class="col-md-3">
+<div class="service-box">
+<img src="buy-1.jpg">
+<div class="service-text">
+<h4>Red Printed T-Shirt</h4>
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</div>
+<h5>$50.00</h5>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-3">
+<div class="service-box">
+<img src="buy-2.jpg">
+<div class="service-text">
+<h4>HRX Sports Shoes</h4>
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</div>
+<h5>$70.00</h5>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-3">
+<div class="service-box">
+<img src="buy-3.jpg">
+<div class="service-text">
+<h4>HRX Gray Trackpants</h4>
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</div>
+<h5>$80.00</h5>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-3">
+<div class="service-box">
+<img src="buy-1.jpg">
+<div class="service-text">
+<h4>Blue Printed T-Shirt</h4>
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</div>
+<h5>$55.00</h5>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+
+<section class="latest-products">
+<div class="container">
+<div class="title-style text-center">
+<h1>LATEST PRODUCTS</h1>
+</div>
+
+<div class="row">
+<div class="col-md-3">
+<div class="service-box">
+<img src="product-5.jpg">
+<div class="service-text">
+<h4>Puma Gray Sports Shoes</h4>
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</div>
+<h5>$85.00</h5>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-3">
+<div class="service-box">
+<img src="product-6.jpg">
+<div class="service-text">
+<h4>Black Pirnted T-Shirt</h4>
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</div>
+<h5>$99.00</h5>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-3">
+<div class="service-box">
+<img src="product-7.jpg">
+<div class="service-text">
+<h4>HRX Sot of 3 Socks</h4>
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</div>
+<h5>$88.00</h5>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-3">
+<div class="service-box">
+<img src="product-8.jpg">
+<div class="service-text">
+<h4>Black Fossil Watch</h4>
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</div>
+<h5>$95.00</h5>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="extra-row">
+<div class="row">
+<div class="col-md-3">
+<div class="service-box">
+<img src="product-9.jpg">
+<div class="service-text">
+<h4>Black Sportx Watch</h4>
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</div>
+<h5>$235.00</h5>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-3">
+<div class="service-box">
+<img src="product-10.jpg">
+<div class="service-text">
+<h4>Black HRX Shoes</h4>
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</div>
+<h5>$199.00</h5>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-3">
+<div class="service-box">
+<img src="product-11.jpg">
+<div class="service-text">
+<h4>Gray Nike Shoes</h4>
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</div>
+<h5>$828.00</h5>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-3">
+<div class="service-box">
+<img src="product-12.jpg">
+<div class="service-text">
+<h4>HRX Black Trackpants</h4>
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</div>
+<h5>$95.00</h5>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+<section class="offer">
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+<img src="exclusive.png" class="offer-img">
+</div>
+
+<div class="col-md-8 text-center">
+<div class="offer-box">
+<h6>Exclusively Available on RedStore</h6>
+<h1>Smart Band 4</h1>
+<p>The Mi Smart Band 4 features a 39.9% larger(than Mi Band3) AMQLED color
+full-touch display with adjustable brightness so everything is clear as can be.</p>
+<button class="primary-btn"><a href="#">See More</a></button>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<section class="person">
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+<div class="person-box">
+<i class="fa fa-quote-left"></i>
+<p>Lorem ipsum is simply durmmy text of the  printing and typesetting
+industry.Lorem ipsum has boen the industry's
+starndand dummy taxt over.</p>
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</div>
+<img src="user-1.png">
+<h3>Sean Parker</h3>
+</div>
+</div>
+
+
+<div class="col-md-4">
+<div class="person-box">
+<i class="fa fa-quote-left"></i>
+<p>Lorem ipsum is simply durmmy text of the  printing and typesetting
+industry.Lorem ipsum has boen the industry's
+starndand dummy taxt over.</p>
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</div>
+<img src="user-2.png">
+<h3>Miko Smith</h3>
+</div>
+</div>
+
+
+<div class="col-md-4">
+<div class="person-box">
+<i class="fa fa-quote-left"></i>
+<p>Lorem ipsum is simply durmmy text of the  printing and typesetting
+industry.Lorem ipsum has boen the industry's
+starndand dummy taxt over.</p>
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</div>
+<img src="user-3.png">
+<h3>Mabel Joe</h3>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+
+
+<section class="brands">
+<div class="container">
+<div class="brands-image">
+<img src="logo-coca-cola.png">
+<img src="logo-godrej.png">
+<img src="logo-oppo.png">
+<img src="logo-paypal.png">
+<img src="logo-philips.png">
+</div>
+</div>
+</section>
+
+
+
+
+<section class="footer">
+<div class="container">
+<div class="row">
+<div class="col-md-3">
+<div class="footer-box">
+<h5>Download Our App</h5>
+<p>Download App for android and ios mobile danana</p>
+<img src="play-store.png" class="app-store">
+<img src="app-store.png" class="app-store">
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="footer-box">
+<img src="logo.png" class="footer-logo">
+<p class="footer-text">Lorem ipsum is simply durmmy text of the  printing and typesetting
+industry.</p>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="footer-box">
+<h3>Useful Links</h3>
+<p>Coupons</p>
+<p>Blog Post</p>
+<p>Return Policy</p>
+<p>Join Programme</p>
+</div>
+</div>
+
+
+<div class="col-md-3">
+<div class="footer-box">
+<h3>Follow Us</h3>
+<p>Facebook</p>
+<p>Twitter</p>
+<p>Instagram</p>
+<p>YouTube</p>
+</div>
+</div>
+<hr>
+<p class="copyright">Copyright 2021 - The SunRise of New Life</p>
+</div>
+</div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,173 @@
+<html>
+<head>
+<title>Account Page</title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-
+scale=1.0">
+<link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-
+awesome.min.css">
+</head>
+<body>
+
+<section class="header">
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="logo.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+     <i class="fa fa-bars"></i> 
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto text-right">
+       
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="product.html">PRODUCTS</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="details1.html">ABOUT</a>
+        </li>
+		 <li class="nav-item">
+          <a class="nav-link" href="https://www.facebook.com/profile.php?id=100076294128634">CONTACT</a>
+        </li>
+		 <li class="nav-item">
+          <a class="nav-link" href="account.html">ACCOUNT</a>
+        </li>
+		 <li class="nav-item">
+          <a class="nav-link" href="cart_page.html"><img src="cart.png"></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</section>
+
+
+
+<div class="account-page">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<img src="image1.png" width="100%">
+</div>
+<div class="col-md-6">
+<div class="form-container">
+<div class="form-btn">
+<span onclick="login()">Login</span>
+<span onclick="register()">Register</span>
+<hr id="Indicator">
+</div>
+<form id="LoginForm">
+<input type="text" placeholder="Username">
+<input type="password" placeholder="Password">
+<button type="submit" class="btn">Login</button>
+<a href="">Forgot Password</a>
+</form>
+
+
+<form id="RegForm">
+<input type="text" placeholder="Username">
+<input type="email" placeholder="E-mail">
+<input type="password" placeholder="Password">
+<button type="submit" class="btn">Register</button>
+</form>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<section class="footer">
+<div class="container">
+<div class="row">
+<div class="col-md-3">
+<div class="footer-box">
+<h5>Download Our App</h5>
+<p>Download App for android and ios mobile danana</p>
+<img src="play-store.png" class="app-store">
+<img src="app-store.png" class="app-store">
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="footer-box">
+<img src="logo.png" class="footer-logo">
+<p class="footer-text">Lorem ipsum is simply durmmy text of the  printing and typesetting
+industry.</p>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="footer-box">
+<h3>Useful Links</h3>
+<p>Coupons</p>
+<p>Blog Post</p>
+<p>Return Policy</p>
+<p>Join Programme</p>
+</div>
+</div>
+
+
+<div class="col-md-3">
+<div class="footer-box">
+<h3>Follow Us</h3>
+<p>Facebook</p>
+<p>Twitter</p>
+<p>Instagram</p>
+<p>YouTube</p>
+</div>
+</div>
+<hr>
+<p class="copyright">Copyright 2021 - The SunRise of New Life</p>
+</div>
+</div>
+</section>
+
+
+
+
+<!------js for toggle form------>
+<script>
+var LoginForm = document.getElementById("LoginForm");
+var RegForm = document.getElementById("RegForm");
+var Indicator = document.getElementById("Indicator");
+
+
+function register(){
+ 
+ RegForm.style.transform = "translateX(0px)";
+ LoginForm.style.transform = "translateX(0px)";
+ Indicator.style.transform = "translateX(100px)";
+}
+
+function login(){
+ 
+ RegForm.style.transform = "translateX(300px)";
+ LoginForm.style.transform = "translateX(300px)";
+ Indicator.style.transform = "translateX(0px)";
+}
+</script>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
